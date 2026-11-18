@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Technical SEO Checklist 2026: 12 Fixes to Help Google Crawl and Rank Your Site | Khushi SEO</title>
+<meta name="description" content="A practical technical SEO checklist for 2026: indexing, sitemaps, Core Web Vitals, mobile, HTTPS, schema, redirects and more, with what to fix first.">
+<link rel="canonical" href="https://khushiseo.in/blog/technical-seo-checklist/">
+<meta property="og:type" content="article"><meta property="og:title" content="Technical SEO Checklist 2026: 12 Fixes That Matter">
+<meta property="og:description" content="The technical fixes that help Google crawl, index and rank your website.">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="/blog/assets/blog.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+{"@type":"BlogPosting","headline":"Technical SEO Checklist 2026: 12 Fixes to Help Google Crawl and Rank Your Site","datePublished":"2026-11-18","dateModified":"2026-11-18","author":{"@type":"Organization","name":"Khushi SEO"},"publisher":{"@type":"Organization","name":"Khushi SEO","url":"https://khushiseo.in"},"mainEntityOfPage":"https://khushiseo.in/blog/technical-seo-checklist/","keywords":"technical seo checklist, technical seo audit, core web vitals, website indexing issues, crawl errors"},
+{"@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"How often should I run a technical SEO audit?","acceptedAnswer":{"@type":"Answer","text":"Do a full audit every quarter and check Search Console weekly. Always re-check after a redesign, migration or hosting change."}},
+{"@type":"Question","name":"Can I do technical SEO without a developer?","acceptedAnswer":{"@type":"Answer","text":"Many checks, such as sitemaps, Search Console errors, titles and image compression, need no coding. Speed, rendering and redirect fixes usually need a developer."}},
+{"@type":"Question","name":"Does technical SEO affect AI search?","acceptedAnswer":{"@type":"Answer","text":"Yes. AI Overviews and chatbots draw on pages they can crawl and index, so technical problems that block Google usually block AI citations too."}}]}]}
+</script>
+</head>
+<body>
+<header class="site"><div class="wrap wide"><a class="brand" href="/">Khushi SEO</a><nav><a href="/">Home</a><a href="/blog/">Blog</a><a href="/contact/">Contact</a></nav></div></header>
+<section class="hero"><div class="wrap">
+<span class="tag">Cluster guide · Technical SEO</span>
+<h1>Technical SEO Checklist 2026: 12 Fixes to Help Google Crawl and Rank Your Site</h1>
+<p class="meta">Updated 18 November 2026 · 8 min read</p>
+</div></section>
+<main class="wrap"><article>
+
+<p>You can write the best content in your industry and still get no traffic if Google cannot find, load or understand your pages. <strong>Technical SEO</strong> is the work behind the scenes that makes your website easy for search engines and AI tools to crawl, index and trust. This checklist covers the 12 checks that matter most in 2026, in the order we fix them for clients.</p>
+
+<nav class="toc"><strong>In this checklist</strong><ol>
+<li><a href="#what">What technical SEO covers</a></li>
+<li><a href="#crawl">Crawling and indexing (checks 1–5)</a></li>
+<li><a href="#speed">Speed and experience (checks 6–8)</a></li>
+<li><a href="#structure">Structure and signals (checks 9–12)</a></li>
+<li><a href="#tools">Free tools to use</a></li>
+<li><a href="#faq">FAQs</a></li></ol></nav>
+
+<h2 id="what">What technical SEO covers</h2>
+<p>If <a href="/blog/what-is-seo/">SEO</a> is a shop, content is the stock on the shelves and technical SEO is the building: the door, the lights and the signboard. It includes how your server responds, how pages link together, how fast they load on a phone and how clearly you describe them to search engines. When something here breaks, rankings drop across the whole site, not just one page. That is why it is the first thing we check when a client asks <a href="/blog/website-not-ranking-on-google/">why their website is not ranking on Google</a>.</p>
+
+<h2 id="crawl">Crawling and indexing</h2>
+<h3>1. Verify your site in Google Search Console</h3>
+<p>Search Console is free and shows exactly how Google sees your site. Add your domain property, then open the <em>Pages</em> report. Every page marked "Not indexed" has a reason listed beside it, such as "Crawled – currently not indexed", "Duplicate without user-selected canonical" or "Blocked by robots.txt". Work through these reasons from the most common to the least.</p>
+
+<h3>2. Submit a clean XML sitemap</h3>
+<p>Your sitemap should list only pages you want in Google: live (200 status), canonical and not blocked. Remove redirects, 404s and thank-you pages. Submit it in Search Console and reference it at the bottom of your <code>robots.txt</code> file.</p>
+
+<h3>3. Check robots.txt and noindex tags</h3>
+<p>A single wrong line in <code>robots.txt</code> can hide your whole website. Make sure you are not blocking important folders, CSS or JavaScript. Also search your pages for leftover <code>noindex</code> tags, a common mistake after a site moves from a staging server to live.</p>
+
+<h3>4. Fix broken pages and redirect chains</h3>
+<p>Find 404 errors with a crawler and either restore the page or add a 301 redirect to the closest relevant page. Avoid chains like A → B → C; point every old URL straight to its final destination. Update internal links so they skip redirects entirely.</p>
+
+<h3>5. Set canonical tags</h3>
+<p>Product filters, tracking parameters and "www" versus non-"www" versions can create many copies of the same page. A canonical tag tells Google which version is the main one, so ranking signals are not split between duplicates.</p>
+
+<h2 id="speed">Speed and page experience</h2>
+<h3>6. Pass Core Web Vitals</h3>
+<p>Core Web Vitals measure real visitors' experience. Aim for these "good" thresholds:</p>
+<ul>
+<li><strong>LCP (Largest Contentful Paint):</strong> main content visible within 2.5 seconds.</li>
+<li><strong>INP (Interaction to Next Paint):</strong> the page responds to taps and clicks within 200 milliseconds.</li>
+<li><strong>CLS (Cumulative Layout Shift):</strong> under 0.1, so buttons and text do not jump around while loading.</li>
+</ul>
+<p>The usual fixes are compressing images and serving them in WebP or AVIF, lazy-loading images below the fold, removing unused plugins and scripts, using a CDN, and setting width and height on images and ads.</p>
+
+<h3>7. Design mobile-first</h3>
+<p>Google indexes the mobile version of your site. Check that text is readable without zooming, buttons are easy to tap and no content is hidden on mobile that appears on desktop. In India, where most searches happen on phones, often over slower mobile data, this matters even more.</p>
+
+<h3>8. Use HTTPS everywhere</h3>
+<p>Every page should load over HTTPS with a valid certificate, and the HTTP versions should redirect permanently to HTTPS. Watch for "mixed content" warnings, where images or scripts still load over HTTP.</p>
+
+<h2 id="structure">Structure and signals</h2>
+<h3>9. Keep a shallow, logical site structure</h3>
+<p>Important pages should be reachable within three clicks of the homepage. Group related pages into clusters: a main service page supported by blog articles that link back to it. Use clear, short URLs such as <code>/services/technical-seo/</code> rather than strings of numbers.</p>
+
+<h3>10. Strengthen internal linking</h3>
+<p>Internal links help Google discover pages and understand which ones matter most. Link from high-traffic blog posts to your service pages using descriptive anchor text, and fix "orphan" pages that have no internal links at all.</p>
+
+<h3>11. Add structured data</h3>
+<p>Schema markup describes your content in a format machines read easily. Use <code>Organization</code> and <code>LocalBusiness</code> on your homepage, <code>Service</code> on service pages, <code>Article</code> on blog posts and <code>BreadcrumbList</code> across the site. Test everything with Google's Rich Results Test. Clear schema also helps AI tools describe your business accurately.</p>
+
+<h3>12. Write unique titles and meta descriptions</h3>
+<p>Every indexable page needs its own title tag (about 50–60 characters) with the main keyword near the start, and a meta description that tells searchers why to click. Duplicate titles across many pages confuse Google about which page to rank.</p>
+
+<h2 id="tools">Free tools to run your audit</h2>
+<ul>
+<li><strong>Google Search Console:</strong> indexing, Core Web Vitals and manual action reports.</li>
+<li><strong>PageSpeed Insights:</strong> real-user speed data and specific fixes for each page.</li>
+<li><strong>Screaming Frog SEO Spider:</strong> crawls up to 500 URLs free to find broken links, redirects and duplicate titles.</li>
+<li><strong>Rich Results Test:</strong> checks your schema markup.</li>
+</ul>
+
+<h2>What to fix first</h2>
+<p>Work in order of impact: anything that blocks indexing (robots.txt, noindex, server errors) first, then broken pages and redirects, then speed and mobile, then structure and schema. One blocked folder can cost more traffic than a hundred slow images.</p>
+
+<h2 id="faq">Frequently asked questions</h2>
+<h3>How often should I run a technical SEO audit?</h3>
+<p>Do a full audit every quarter and check Search Console weekly. Always re-check after a redesign, migration or hosting change.</p>
+<h3>Can I do technical SEO without a developer?</h3>
+<p>Many checks, such as sitemaps, Search Console errors, titles and image compression, need no coding. Speed, rendering and redirect fixes usually need a developer.</p>
+<h3>Does technical SEO affect AI search?</h3>
+<p>Yes. AI Overviews and chatbots draw on pages they can crawl and index, so technical problems that block Google usually block AI citations too.</p>
+
+<div class="cta"><strong>Not sure what is holding your website back?</strong><br>Our team will run a full technical audit and send you a prioritised fix list. <a href="/services/technical-seo/">See our technical SEO service →</a> or <a href="/contact/">request a free audit</a>.</div>
+
+<div class="related"><strong>Related guides</strong><ul>
+<li><a href="/blog/website-not-ranking-on-google/">Why Your Website Is Not Ranking on Google</a></li>
+<li><a href="/blog/what-is-seo/">What Is SEO?</a></li>
+<li><a href="/blog/get-cited-in-google-ai-overviews/">How to Get Cited in Google AI Overviews</a></li>
+<li><a href="/services/seo-services/">SEO Services</a></li>
+</ul></div>
+</article></main>
+<footer>© 2026 Khushi SEO · <a href="/blog/">Blog</a></footer>
+</body></html>
