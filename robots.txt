@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /automation/
+Sitemap: https://khushiseo.in/sitemap.xml
